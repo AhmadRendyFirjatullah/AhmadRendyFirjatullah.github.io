@@ -37,14 +37,6 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: SnapFolio
-  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
-  * Updated: Jul 21 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body class="index-page">
@@ -90,51 +82,86 @@
 
     <main class="main">
       <!-- Hero Section -->
-      <section id="hero" class="hero section">
-        <div class="background-elements">
-          <div class="bg-circle circle-1"></div>
-          <div class="bg-circle circle-2"></div>
-        </div>
+      <section id="hero" class="hero modern-hero-section">
+        <!-- BACKGROUND -->
+        <div class="hero-blur hero-blur-1"></div>
+        <div class="hero-blur hero-blur-2"></div>
 
-        <div class="hero-content">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                <div class="hero-text">
-                  <h2>FRESH GRADUATE</h2>
-                  <h3>Ahmad Rendy Firjatullah, S.Kom.</h3>
-                  <p class="lead">
-                    I'm a
-                    <span
-                      class="typed"
-                      data-typed-items="Web Developer, Laravel Developer"
-                    ></span>
-                  </p>
-                  <p class="description">
-                    Lulusan Teknik Informatika dengan keahlian dalam
-                    Pengembangan Web dengan framework Laravel, Manajemen Basis
-                    Data (SQL), Microsoft Excel, serta produktivitas berbasis
-                    teknologi AI.
-                  </p>
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <!-- LEFT -->
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="modern-hero-content">
+                <!-- BADGE -->
+                <div class="hero-badge">
+                  <i class="bi bi-stars"></i>
+                  Fresh Graduate • Open To Work
+                </div>
 
-                  <div class="hero-actions">
-                    <a href="#portfolio" class="btn btn-primary"
-                      >Lihat Portofolio</a
-                    >
-                  </div>
+                <!-- TITLE -->
+                <h1 class="hero-title">AHMAD RENDY FIRJATULLAH, S.KOM.</h1>
+
+                <!-- ROLE -->
+                <div class="hero-role">
+                  I'm a
+                  <span
+                    class="typed"
+                    data-typed-items="Web Developer,Laravel Full Stack Developer"
+                  ></span>
+                </div>
+
+                <!-- DESCRIPTION -->
+                <p class="hero-description">
+                  Lulusan Teknik Informatika dengan pengalaman dalam
+                  pengembangan aplikasi web menggunakan framework Laravel, SQL
+                  Database, serta pemanfaatan teknologi Artificial Intelligence
+                  (AI) untuk meningkatkan efisiensi dan kualitas pengembangan
+                  sistem berbasis web.
+                </p>
+
+                <!-- BUTTON -->
+                <div class="hero-buttons">
+                  <a href="#portfolio" class="hero-btn primary-btn">
+                    <i class="bi bi-grid"></i>
+                    Lihat Portofolio
+                  </a>
+
+                  <a
+                    href="https://wa.me/6281257038080"
+                    class="hero-btn info-btn"
+                    target="_blank"
+                  >
+                    <i class="bi bi-whatsapp"></i>
+                    Hubungi Saya
+                  </a>
                 </div>
               </div>
+            </div>
 
-              <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-                <div class="hero-visual">
-                  <div class="profile-container">
-                    <div class="profile-background"></div>
-                    <img
-                      src="assets/img/profile/profile2.jpg"
-                      alt="Alexander Chen"
-                      class="profile-image"
-                    />
-                  </div>
+            <!-- RIGHT -->
+            <div class="col-lg-6" data-aos="fade-left">
+              <div class="modern-hero-image-wrapper">
+                <!-- EFFECT -->
+                <div class="hero-glow"></div>
+
+                <!-- CARD -->
+                <div class="hero-image-card">
+                  <img
+                    src="assets/img/profile/profile2.jpg"
+                    alt="Ahmad Rendy Firjatullah"
+                    class="hero-profile-img"
+                  />
+                </div>
+
+                <!-- FLOAT CARD -->
+                <div class="floating-card floating-card-1">
+                  <i class="bi bi-code-slash"></i>
+                  Web Developer
+                </div>
+
+                <div class="floating-card floating-card-2">
+                  <i class="bi bi-database"></i>
+                  SQL Database
                 </div>
               </div>
             </div>
@@ -145,77 +172,100 @@
 
       <!-- About Section -->
       <section id="about" class="about section">
+        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>ABOUT</h2>
+          <span>About Me</span>
+          <h2>Tentang Saya</h2>
+          <p>
+            Web Developer yang fokus pada pengembangan website modern,
+            responsive, dan user friendly.
+          </p>
         </div>
+
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-lg-12" data-aos="fade-left" data-aos-delay="300">
-              <div class="about-content">
-                <div class="section-header">
-                  <h2>AHMAD RENDY FIRJATULLAH, S.KOM.</h2>
+          <div class="modern-about-wrapper">
+            <!-- LEFT -->
+            <div class="modern-about-left" data-aos="fade-right">
+              <div class="profile-badge">
+                <i class="bi bi-person-check-fill"></i>
+                Available for Work
+              </div>
+
+              <h2 class="about-name">AHMAD RENDY FIRJATULLAH, S.KOM.</h2>
+
+              <p class="about-description">
+                Lulusan Teknik Informatika dari Universitas Islam Kalimantan
+                Muhammad Arsyad Al Banjari dengan minat pada pengembangan
+                aplikasi web menggunakan framework Laravel. Memiliki kemampuan
+                dasar dalam pengembangan aplikasi web menggunakan HTML, PHP, dan
+                dan basis data SQL, serta pemanfaatan teknologi AI. Memahami
+                dasar-dasar IT Support meliputi instalasi perangkat lunak,
+                pemeliharaan komputer, dan troubleshooting. Berpengalaman
+                melalui kegiatan PKL di bidang teknologi informasi. Memiliki
+                karakter teliti, terorganisir, adaptif, serta mampu bekerja
+                secara mandiri maupun dalam tim.
+              </p>
+
+              <!-- BUTTON -->
+              <div class="about-buttons">
+                <a
+                  href="https://wa.me/6281257038080"
+                  class="modern-btn primary-btn"
+                >
+                  <i class="bi bi-whatsapp"></i>
+                  Hubungi Saya
+                </a>
+
+                <a href="#portfolio" class="modern-btn secondary-btn">
+                  <i class="bi bi-grid"></i>
+                  Lihat Portfolio
+                </a>
+              </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="modern-about-right" data-aos="fade-left">
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="bi bi-code-slash"></i>
                 </div>
 
-                <div class="description">
-                  <p>
-                    Lulusan Teknik Informatika Universitas Islam Kalimantan
-                    Muhammad Arsyad Al Banjari dengan fokus pada pengembangan
-                    aplikasi web menggunakan framework Laravel, didukung oleh
-                    kemampuan dalam HTML, PHP, dan basis data (SQL), serta
-                    pemanfaatan teknologi AI. Memiliki pemahaman dasar IT
-                    Support seperti instalasi perangkat lunak, pemeliharaan
-                    komputer, dan troubleshooting. Berpengalaman melalui PKL di
-                    bidang teknologi informasi, dengan karakter teliti,
-                    terorganisir, adaptif, dan memiliki semangat belajar tinggi.
-                    Siap berkontribusi secara mandiri maupun dalam tim di bidang
-                    pengembangan web dan IT.
-                  </p>
+                <div>
+                  <span>Spesialisasi</span>
+                  <h4>Web Developer</h4>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="bi bi-envelope"></i>
                 </div>
 
-                <div class="details-grid">
-                  <div class="detail-row">
-                    <div class="detail-item">
-                      <span class="detail-label">Pendidikan</span>
-                      <span class="detail-value">S1 Teknik Informatika</span>
-                    </div>
-                    <div class="detail-item">
-                      <span class="detail-label">Region</span>
-                      <span class="detail-value"
-                        >Indonesia, Kalimantan Selatan</span
-                      >
-                    </div>
-                  </div>
+                <div>
+                  <span>Email</span>
+                  <h4>a.rendyfirjatullah09@gmail.com</h4>
+                </div>
+              </div>
 
-                  <div class="detail-row">
-                    <div class="detail-item">
-                      <span class="detail-label">Spesialisasi</span>
-                      <span class="detail-value">Web Developer</span>
-                    </div>
-                    <div class="detail-item">
-                      <span class="detail-label">Tingkat Pengalaman</span>
-                      <span class="detail-value">Junior Level</span>
-                    </div>
-                  </div>
-
-                  <div class="detail-row">
-                    <div class="detail-item">
-                      <span class="detail-label">Email</span>
-                      <span class="detail-value"
-                        >a.rendyfirjatullah09@gmail.com</span
-                      >
-                    </div>
-                    <div class="detail-item">
-                      <span class="detail-label">Whatsapp</span>
-                      <span class="detail-value">0812-5703-8080</span>
-                    </div>
-                  </div>
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="bi bi-telephone"></i>
                 </div>
 
-                <div class="cta-section">
-                  <a href="https://wa.me/6281257038080" class="btn btn-outline">
-                    <i class="bi bi-chat-dots"></i>
-                    Chat
-                  </a>
+                <div>
+                  <span>Whatsapp</span>
+                  <h4>0812-5703-8080</h4>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="info-icon">
+                  <i class="bi bi-bar-chart"></i>
+                </div>
+
+                <div>
+                  <span>Experience Level</span>
+                  <h4>Junior Level</h4>
                 </div>
               </div>
             </div>
@@ -225,271 +275,117 @@
       <!-- /About Section -->
 
       <!-- Skills Section -->
-      <section id="skills" class="skills section">
+      <section id="skills" class="skills section skill">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Skills</h2>
+          <span>Keahlian</span>
+          <h2>Skills & Tools</h2>
+          <p>
+            Teknologi dan kemampuan yang saya gunakan dalam pengembangan
+            website, troubleshooting, serta pekerjaan digital lainnya.
+          </p>
         </div>
         <!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row">
-            <div class="col-lg-6">
-              <div
-                class="skills-category"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <h3><i class="bi bi-tools me-2"></i>Hard Skill</h3>
-                <div class="skills-animation">
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>MICROSOFT WORD</h4>
-                      <span class="skill-percentage">80%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
+        <div class="container">
+          <div class="row gy-4">
+            <!-- HARD SKILL -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="skills-category modern-skill-card">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="skill-icon-box me-3">
+                    <i class="bi bi-code-slash"></i>
                   </div>
 
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>MICROSOFT EXCEL</h4>
-                      <span class="skill-percentage">60%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="60"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>MICROSOFT POWERPOINT</h4>
-                      <span class="skill-percentage">70%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>HTML</h4>
-                      <span class="skill-percentage">60%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="60"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>PHP (NATIVE)</h4>
-                      <span class="skill-percentage">50%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>FRAMEWORK LARAVEL</h4>
-                      <span class="skill-percentage">40%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="40"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>Basis Data (SQL)</h4>
-                      <span class="skill-percentage">50%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>GITHUB</h4>
-                      <span class="skill-percentage">30%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="30"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>IT SUPPORT</h4>
-                      <span class="skill-percentage">50%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>ARTIFICIAL INTELLIGENCE (AI)</h4>
-                      <span class="skill-percentage">70%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
+                  <div>
+                    <h3 class="mb-0">Hard Skill</h3>
                   </div>
                 </div>
+
+                <div class="skill-tags">
+                  <span class="skill-tag">
+                    <i class="bi bi-file-earmark-word"></i>
+                    Microsoft Word
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-file-earmark-excel"></i>
+                    Microsoft Excel
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-file-earmark-ppt"></i>
+                    PowerPoint
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-filetype-html"></i>
+                    HTML
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-filetype-php"></i>
+                    PHP Native
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-layers"></i>
+                    Laravel
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-database"></i>
+                    SQL Database
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-github"></i>
+                    GitHub
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-pc-display"></i>
+                    IT Support
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-cpu"></i>
+                    Artificial Intelligence
+                  </span>
+                </div>
               </div>
-              <!-- End Frontend Skills -->
             </div>
 
-            <div class="col-lg-6">
-              <div
-                class="skills-category"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <h3><i class="bi bi-people me-2"></i>Soft Skill</h3>
-                <div class="skills-animation">
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>MANAJEMEN WAKTU</h4>
-                      <span class="skill-percentage">80%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
+            <!-- SOFT SKILL -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="skills-category modern-skill-card">
+                <div class="d-flex align-items-center mb-4">
+                  <div class="skill-icon-box me-3">
+                    <i class="bi bi-people"></i>
                   </div>
 
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>BEKERJASAMA TIM</h4>
-                      <span class="skill-percentage">70%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-
-                  <div class="skill-item">
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <h4>PEMECAHAN MASALAH</h4>
-                      <span class="skill-percentage">50%</span>
-                    </div>
-                    <div class="progress">
-                      <div
-                        class="progress-bar"
-                        role="progressbar"
-                        aria-valuenow="50"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
+                  <div>
+                    <h3 class="mb-0">Soft Skill</h3>
                   </div>
                 </div>
+
+                <div class="skill-tags">
+                  <span class="skill-tag">
+                    <i class="bi bi-clock-history"></i>
+                    Manajemen Waktu
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-people-fill"></i>
+                    Kerja Sama Tim
+                  </span>
+
+                  <span class="skill-tag">
+                    <i class="bi bi-lightbulb"></i>
+                    Pemecahan Masalah
+                  </span>
+                </div>
               </div>
-              <!-- End Backend Skills -->
             </div>
           </div>
         </div>
@@ -500,7 +396,12 @@
       <section id="portfolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
+          <span>My Projects</span>
           <h2>Portfolio</h2>
+          <p>
+            Beberapa project website yang pernah saya kembangkan menggunakan
+            Laravel dan PHP Native.
+          </p>
         </div>
         <!-- End Section Title -->
 
@@ -508,7 +409,7 @@
           <div
             class="isotope-layout"
             data-default-filter="*"
-            data-layout="masonry"
+            data-layout="fitRows"
             data-sort="original-order"
           >
             <div class="row">
@@ -955,7 +856,25 @@
     ></a>
 
     <!-- Preloader -->
-    <div id="preloader"></div>
+    <div id="preloader">
+      <div class="loader-wrapper">
+        <div class="loader-ring"></div>
+
+        <h3>Loading Portfolio</h3>
+
+        <p>Please wait a moment...</p>
+
+        <!-- PROGRESS -->
+        <div class="loading-progress">
+          <div class="progress-bar"></div>
+        </div>
+
+        <!-- PERCENT -->
+        <div class="loading-text">
+          <span id="loading-percent">0%</span>
+        </div>
+      </div>
+    </div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

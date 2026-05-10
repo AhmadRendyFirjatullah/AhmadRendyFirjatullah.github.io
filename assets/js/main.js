@@ -48,12 +48,53 @@
   /**
    * Preloader
    */
-  const preloader = document.querySelector('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
-  }
+const preloader = document.querySelector('#preloader');
+
+if (preloader) {
+
+  let percent = 0;
+
+  const progressBar =
+    document.querySelector(".progress-bar");
+
+  const percentText =
+    document.getElementById("loading-percent");
+
+  // LOADING PROGRESS
+  const interval = setInterval(() => {
+
+    percent++;
+
+    if (progressBar) {
+      progressBar.style.width = percent + "%";
+    }
+
+    if (percentText) {
+      percentText.innerText = percent + "%";
+    }
+
+    // JIKA SUDAH 100%
+    if (percent >= 100) {
+
+      clearInterval(interval);
+
+      // DELAY SEBELUM HILANG
+      setTimeout(() => {
+
+        preloader.style.opacity = "0";
+        preloader.style.visibility = "hidden";
+
+        // HAPUS DARI DOM
+        setTimeout(() => {
+          preloader.remove();
+        }, 600);
+
+      }, 500);
+
+    }
+
+  }, 20); // 30 = ±3 detik
+}
 
   /**
    * Scroll top button
