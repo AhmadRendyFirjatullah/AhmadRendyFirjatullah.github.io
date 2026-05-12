@@ -36,7 +36,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/maindetail.css" rel="stylesheet" />
 
     <!-- =======================================================
   * Template Name: SnapFolio
@@ -48,39 +48,28 @@
   </head>
 
   <body class="portfolio-details-page">
-    <header
-      id="header"
-      class="header dark-background d-flex flex-column justify-content-center"
-    >
-      <i class="header-toggle d-xl-none bi bi-list"></i>
-
-      <div class="header-container d-flex flex-column align-items-start">
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li class="nav-item mt-2">
-              <a href="index.html#portfolio" class="nav-link back-link">
-                <i class="bi bi-arrow-return-left me-2"></i>
-                <span><b>Kembali Portofolio</b></span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
     <main class="main">
       <!-- Page Title -->
       <div class="page-title black-background">
-        <div
-          class="container d-lg-flex justify-content-between align-items-center"
-        >
-          <h1 class="mb-2 mb-lg-0">PORTOFOLIO DETAIL</h1>
-          <nav class="breadcrumbs">
-            <ol>
-              <li><a href="index.html">HOME</a></li>
-              <li class="current">PORTOFOLIO DETAIL</li>
-            </ol>
-          </nav>
+        <div class="container">
+          <!-- BACK BUTTON -->
+          <a href="index.html#portfolio" class="back-inline-btn">
+            <i class="bi bi-arrow-left"></i>
+            <span>Kembali Portfolio</span>
+          </a>
+
+          <div
+            class="d-lg-flex justify-content-between align-items-center mt-4"
+          >
+            <h1 class="mb-2 mb-lg-0">PORTOFOLIO DETAIL</h1>
+
+            <nav class="breadcrumbs">
+              <ol>
+                <li><a href="index.html">HOME</a></li>
+                <li class="current">PORTOFOLIO DETAIL</li>
+              </ol>
+            </nav>
+          </div>
         </div>
       </div>
       <!-- End Page Title -->
@@ -110,7 +99,7 @@
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/bukutamu/1.png"
+                      src="assets/img/portfolio/monitoring/1.png"
                       alt="Portfolio Image"
                       class="img-fluid"
                       loading="lazy"
@@ -119,7 +108,43 @@
 
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/bukutamu/2.png"
+                      src="assets/img/portfolio/monitoring/2.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/monitoring/3.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/monitoring/33.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/monitoring/4.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/monitoring/44.png"
                       alt="Portfolio Image"
                       class="img-fluid"
                       loading="lazy"
@@ -139,10 +164,11 @@
                 <h3>APLIKASI WEB</h3>
                 <ul>
                   <li>
-                    <strong>Kategori</strong>: Aplikasi Buku Tamu Berbasis Web
+                    <strong>Kategori</strong>: Aplikasi Monitoring Berbasis Web
+                    Dengan Framework Laravel
                   </li>
                   <li><strong>Klien</strong>: Proyek Pribadi</li>
-                  <li><strong>Tanggal Dibuat</strong>: 15 November 2024</li>
+                  <li><strong>Tanggal Dibuat</strong>: 01 November 2025</li>
                 </ul>
               </div>
             </div>
@@ -155,17 +181,20 @@
               >
                 <h2>Penjelasan Project</h2>
                 <p>
-                  Aplikasi Buku Tamu Berbasis Web merupakan sistem digital yang
-                  digunakan untuk mencatat dan mengelola data tamu secara
-                  terstruktur. Aplikasi ini dirancang untuk mempermudah proses
-                  pendataan tamu agar lebih praktis, efisien, dan mudah diakses.
+                  Aplikasi Monitoring Barang Elektronik merupakan sistem
+                  berbasis web yang dibangun menggunakan framework Laravel untuk
+                  membantu proses pengelolaan dan pemantauan data perangkat
+                  elektronik secara terstruktur dan terkomputerisasi. Sistem ini
+                  dirancang agar pencatatan aset elektronik menjadi lebih rapi,
+                  cepat, dan mudah diakses kapan saja melalui web.
                 </p>
                 <p>
-                  Aplikasi ini dilengkapi dengan fitur QR Code, di mana tamu
-                  dapat memindai QR Code menggunakan perangkat mereka untuk
-                  langsung mengakses form input buku tamu. Data yang diinput
-                  akan tersimpan secara otomatis ke dalam sistem dan dapat
-                  dikelola oleh admin melalui dashboard.
+                  Aplikasi ini memiliki fitur utama seperti pendataan barang
+                  elektronik dan pencatatan kondisi barang, Dengan sistem
+                  berbasis Laravel, pengolahan data menjadi lebih aman,
+                  terorganisir, dan mudah dikembangkan. Penyimpanan data yang
+                  terpusat juga memudahkan pihak dalam memantau, memperbarui,
+                  dan mengelola informasi secara akurat.
                 </p>
               </div>
             </div>
@@ -196,7 +225,25 @@
     ></a>
 
     <!-- Preloader -->
-    <div id="preloader"></div>
+    <div id="preloader">
+      <div class="loader-wrapper">
+        <div class="loader-ring"></div>
+
+        <h3>Loading Detail</h3>
+
+        <p>Please wait a moment...</p>
+
+        <!-- PROGRESS -->
+        <div class="loading-progress">
+          <div class="progress-bar"></div>
+        </div>
+
+        <!-- PERCENT -->
+        <div class="loading-text">
+          <span id="loading-percent">0%</span>
+        </div>
+      </div>
+    </div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -211,6 +258,6 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/maindetail.js"></script>
   </body>
 </html>

@@ -36,7 +36,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/maindetail.css" rel="stylesheet" />
 
     <!-- =======================================================
   * Template Name: SnapFolio
@@ -48,39 +48,28 @@
   </head>
 
   <body class="portfolio-details-page">
-    <header
-      id="header"
-      class="header dark-background d-flex flex-column justify-content-center"
-    >
-      <i class="header-toggle d-xl-none bi bi-list"></i>
-
-      <div class="header-container d-flex flex-column align-items-start">
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li class="nav-item mt-2">
-              <a href="index.html#portfolio" class="nav-link back-link">
-                <i class="bi bi-arrow-return-left me-2"></i>
-                <span><b>Kembali Portofolio</b></span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
     <main class="main">
       <!-- Page Title -->
       <div class="page-title black-background">
-        <div
-          class="container d-lg-flex justify-content-between align-items-center"
-        >
-          <h1 class="mb-2 mb-lg-0">PORTOFOLIO DETAIL</h1>
-          <nav class="breadcrumbs">
-            <ol>
-              <li><a href="index.html">HOME</a></li>
-              <li class="current">PORTOFOLIO DETAIL</li>
-            </ol>
-          </nav>
+        <div class="container">
+          <!-- BACK BUTTON -->
+          <a href="index.html#portfolio" class="back-inline-btn">
+            <i class="bi bi-arrow-left"></i>
+            <span>Kembali Portfolio</span>
+          </a>
+
+          <div
+            class="d-lg-flex justify-content-between align-items-center mt-4"
+          >
+            <h1 class="mb-2 mb-lg-0">PORTOFOLIO DETAIL</h1>
+
+            <nav class="breadcrumbs">
+              <ol>
+                <li><a href="index.html">HOME</a></li>
+                <li class="current">PORTOFOLIO DETAIL</li>
+              </ol>
+            </nav>
+          </div>
         </div>
       </div>
       <!-- End Page Title -->
@@ -110,7 +99,34 @@
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
                     <img
-                      src="assets/img/portfolio/foto/1.png"
+                      src="assets/img/portfolio/keuangan/1.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/keuangan/2.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/keuangan/3.png"
+                      alt="Portfolio Image"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/keuangan/4.png"
                       alt="Portfolio Image"
                       class="img-fluid"
                       loading="lazy"
@@ -130,11 +146,10 @@
                 <h3>APLIKASI WEB</h3>
                 <ul>
                   <li>
-                    <strong>Kategori</strong>: Aplikasi Kompress Foto Berbasis
-                    Web
+                    <strong>Kategori</strong>: Aplikasi Keuangan Berbasis Web
                   </li>
                   <li><strong>Klien</strong>: Proyek Pribadi</li>
-                  <li><strong>Tanggal Dibuat</strong>: 12 Juli 2024</li>
+                  <li><strong>Tanggal Dibuat</strong>: 01 Maret 2025</li>
                 </ul>
               </div>
             </div>
@@ -147,15 +162,17 @@
               >
                 <h2>Penjelasan Project</h2>
                 <p>
-                  Aplikasi Kompres Foto merupakan aplikasi berbasis web yang
-                  dirancang untuk mengurangi ukuran file gambar tanpa mengurangi
-                  kualitas secara signifikan. Aplikasi ini membantu pengguna
-                  mengoptimalkan ukuran foto agar lebih ringan dan mudah
-                  digunakan untuk kebutuhan digital.
+                  Aplikasi Keuangan Berbasis Web merupakan sistem yang digunakan
+                  untuk mencatat dan mengelola data gaji masuk, gaji keluar,
+                  serta sisa gaji secara terstruktur. Aplikasi ini dirancang
+                  untuk membantu pengelolaan keuangan agar lebih tertib,
+                  transparan, dan mudah dipantau.
                 </p>
                 <p>
-                  Fitur utama aplikasi meliputi unggah foto serta dikompresi
-                  secara cepat dan efisien.
+                  Fitur utama aplikasi meliputi pencatatan pemasukan dan
+                  pengeluaran gaji, perhitungan sisa gaji secara otomatis, serta
+                  penyajian laporan keuangan yang membantu pengguna dalam
+                  memantau kondisi keuangan secara berkala.
                 </p>
               </div>
             </div>
@@ -186,7 +203,25 @@
     ></a>
 
     <!-- Preloader -->
-    <div id="preloader"></div>
+    <div id="preloader">
+      <div class="loader-wrapper">
+        <div class="loader-ring"></div>
+
+        <h3>Loading Detail</h3>
+
+        <p>Please wait a moment...</p>
+
+        <!-- PROGRESS -->
+        <div class="loading-progress">
+          <div class="progress-bar"></div>
+        </div>
+
+        <!-- PERCENT -->
+        <div class="loading-text">
+          <span id="loading-percent">0%</span>
+        </div>
+      </div>
+    </div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -201,6 +236,6 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/maindetail.js"></script>
   </body>
 </html>
