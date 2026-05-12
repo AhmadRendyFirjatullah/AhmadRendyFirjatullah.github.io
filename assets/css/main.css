@@ -1703,6 +1703,9 @@ section,
 
   color: #0dcaf0;
 
+  box-shadow:
+    0 12px 30px rgba(13, 202, 240, 0.4);
+
   backdrop-filter: blur(10px);
 }
 
@@ -1710,6 +1713,9 @@ section,
   background: rgba(13, 202, 240, 0.25);
 
   color: #ffffff;
+
+  box-shadow:
+    0 15px 35px rgba(0, 213, 255, 0.25);
 
   transform: translateY(-3px);
 }
@@ -2375,7 +2381,7 @@ section,
   position: relative;
   overflow: hidden;
   border-radius: 24px;
-   background: rgba(255,255,255,0.03);
+  background: rgba(255,255,255,0.03);
   border: 1px solid rgba(255,255,255,0.06);
   box-shadow: 0 10px 35px rgba(0,0,0,0.35);
   transition: 0.4s;
@@ -2408,7 +2414,7 @@ section,
   padding: 25px;
   display: flex;
   align-items: end;
-  background: var(--primary-gradient);
+  background: rgba(0, 81, 255, 0.468);
   opacity: 0;
   transition: 0.4s;
 }
@@ -2420,7 +2426,7 @@ section,
 /* CONTENT */
 
 .portfolio .portfolio-info h4 {
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
